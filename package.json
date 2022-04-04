@@ -1,6 +1,33 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "sav": "^1.0.42"
-  }
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.0",
+    "sav": "^1.0.42",
+    "save": "^2.4.0"
+  },
+  "name": "food-festival",
+  "description": "",
+  "version": "1.0.0",
+  "main": "assets/js/script.js",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaira222/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaira222/food-festival/issues"
+  },
+  "homepage": "https://github.com/zaira222/food-festival#readme"
 }
